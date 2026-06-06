@@ -1,0 +1,120 @@
+---
+title: "Modern Lakeside Utility design system"
+description: "A premium mobile operations interface direction for Store Command Center"
+---
+
+# Modern Lakeside Utility design system
+
+Use this direction when you style Store Command Center screens. The app should feel calm, polished, intelligent, and highly organized. It should feel closer to a premium productivity app than a traditional retail management system.
+
+<Note>
+  Keep the app mobile first and localStorage based. Do not add authentication, a database, AI features, barcode scanning, or a framework migration when applying this design system.
+</Note>
+
+## Design principles
+
+- Use a warm light canvas throughout the app.
+- Present operational information in white cards with subtle shadows and thin pale borders.
+- Make the next recommended action obvious without making the screen feel alarming.
+- Use generous spacing so the interface stays readable during a busy shift.
+- Use color to communicate state, not decoration.
+
+## Color palette
+
+| Role | Color | Usage |
+| --- | --- | --- |
+| Main background | `#F4F1EA` | Warm ivory page background |
+| Card background | `#FFFFFF` | Cards, sheets, and raised surfaces |
+| Primary navigation and headers | `#18324A` | Top header, bottom navigation, major section titles |
+| Primary buttons and active states | `#2F7C78` | **Start task**, **Complete**, **Save**, **Acknowledge**, and **Continue** |
+| Secondary highlight | `#E7A53B` | Deadlines, reminders, and recommended next actions |
+| Primary text | `#17212B` | Body copy and high-priority labels |
+| Secondary text | `#6D7782` | Metadata, timestamps, and supporting details |
+| Success | `#3D8B66` | Completed tasks and positive status |
+| Warning | `#D9822B` | At-risk tasks and reminders |
+| Urgent or overdue | `#C94F4F` | Expired, overdue, unsafe, or genuinely urgent information |
+| Borders and dividers | `#DDD9D0` | Card borders, list dividers, and secondary buttons |
+
+## Color rules
+
+- Use mineral teal for primary actions and active states.
+- Use muted golden amber only for important highlights, deadlines, reminders, and recommended next actions.
+- Use brick red only for overdue, expired, unsafe, or genuinely urgent states.
+- Avoid large orange surfaces.
+- Avoid neon effects.
+- Avoid excessive gradients.
+- Avoid pure black backgrounds.
+- Avoid making every card a different bright color.
+
+## Typography
+
+Use a clean modern sans-serif font such as Inter, Manrope, or Plus Jakarta Sans.
+
+- Use large bold page headings.
+- Use clear medium-weight card titles.
+- Use smaller muted text for details and timestamps.
+- Use short sentences with one idea per sentence.
+- Use second person where helpful.
+
+## Components
+
+### Cards
+
+- Use `16px` to `20px` corner radius.
+- Use white backgrounds for standard cards.
+- Use subtle shadows and thin `#DDD9D0` borders.
+- Use pale tints for status cards instead of saturated fills.
+- Use icons sparingly and consistently.
+
+### Buttons
+
+- Make buttons large and touch friendly.
+- Use teal backgrounds with white text for primary buttons.
+- Use white backgrounds with navy text and pale borders for secondary buttons.
+- Reserve amber accents for recommended actions and deadlines.
+
+### Status treatments
+
+| State | Treatment |
+| --- | --- |
+| Recommended | Very light amber background with a small amber indicator |
+| Completed | Pale green tint with forest green status text |
+| Warning | Pale amber tint with burnt amber status text |
+| Urgent | Pale red tint with brick red status text |
+
+## Home screen priority
+
+The **What do I do next?** card should be the strongest visual element on the home screen. It should feel helpful and decisive, not alarming.
+
+Include these elements:
+
+- Deep navy title text.
+- Very light amber background.
+- Teal **Start task** button.
+- Estimated time.
+- Due time.
+- A short explanation of why the task is recommended.
+- A small urgency indicator.
+- Clear **Complete**, **Skip**, and **Blocked** actions.
+
+## Bottom navigation
+
+Use a deep navy bottom navigation bar with these items:
+
+- Home
+- What’s Next
+- Tasks
+- Dates
+- Handoff
+- More
+
+Use white inactive icons with reduced opacity. Use mineral teal or golden amber for the active icon and label.
+
+## Avoid
+
+- Generic dark admin dashboard styling.
+- Gaming interface patterns.
+- Gas station loyalty app styling.
+- Dense corporate dashboards.
+- Large orange surfaces.
+- Pure black navigation or backgrounds.
